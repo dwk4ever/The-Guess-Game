@@ -3,7 +3,7 @@ import random
 #correct guessed number
 
 #Guess game level select instructions
-user_level = int(input("***Choose difficulty level*** \n 1.Easy(1-10) \n 2.Medium(1-100) \n 3.Hard(1-1000)\n\n\n provide level:"))
+user_level = int(input("***Choose difficulty level*** \n 1.Easy(1-10) \n 2.Medium(1-100) \n 3.Hard(1-1000)\n\n\n Select level:"))
 level = 0
 if user_level == 1:
     level = 20
