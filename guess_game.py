@@ -22,7 +22,7 @@ guess_number = random.randint(1, level)
 #user chances to guess thhe correct number based on level selected
 user_input = 0
 chances = 0
-max_chances = {1:5,2:10,3:100}
+max_chances = {1:5,2:10,3:20}
 if user_level == 1:
     level = 20
 
